@@ -2,3 +2,21 @@
   text-align: center;
   box-sizing: border-box;
 }
+
+.weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.weather_item {
+  margin: 0.5rem 0;
+  justify-items: left;
+  text-align: left;
+  list-style-type: none;
+  padding: 0;
+  color: blue;
+}
